@@ -1,0 +1,241 @@
+*{margin: 0px;padding: 0px;}
+.wrapper{max-width: 960px; margin: 0px auto;}
+.clear{clear: both; height: 0px; width: 0px; overflow: hidden;}
+.login_form h3{
+    text-transform: uppercase;
+    font-family: arial;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    padding: 10px 0px;
+    text-shadow: 5px 5px 8px white;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+.login_form{display: inline-block;
+    background-color: rgb(0,157,225);
+    border-radius: 5px ;
+    margin-top: 50px;
+    padding: 20px 30px;
+}
+.login_form table tr td{
+    font-size: 18px;
+    color: white;
+    font-family: arial;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.login_form table tr td input[type="text"],.login_form table tr td input[type="password"]{
+    border: 2px solid rgb(117,0,18);
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: arial;
+    padding: 5px 5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.login_form table tr td input[type="submit"]{
+    width: 100%;
+    border: 2px solid rgb(117,0,18);
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: arial;
+    padding: 5px 5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-color: rgb(117,0,18);
+    margin-top: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 5px white;
+}
+.login_form table tr td input[type="submit"]:hover{
+    background-color: rgb(0,140,200);
+    border: 2px solid rgb(117,0,18);
+    box-shadow: 3px 3px 3px white;
+}
+
+.Header{ 
+            box-shadow: 5px 5px 8px black;
+            position: fixed; 
+            top: 0px;
+            width: 100%;
+           background-color: rgb(117,0,18);
+        }
+        .Heading h1{
+            color: white;
+            text-align: center;
+            padding: 10px 0px;
+            font-weight: bolder;
+            font-family: arial;
+            word-spacing: 10px;
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 5px pink;
+        }
+        .menu{
+            margin: 10px 0px;
+        }
+        .menu ul{
+            display: flex;
+        }
+        .menu ul li{
+            list-style: none;
+        }
+        .menu ul li a{
+            display: inline-block;color: white;text-decoration: none;padding : 10px 25px;font-size : 20px;
+              font-family:arial;text-transform: uppercase; letter-spacing: 1px ; word-spacing: 2px;
+        }
+        .menu ul li a:hover{
+            background-color: rgb(0,157,225); border-radius: 5px; font-weight: bold;
+          }
+
+.customers table,.feedback table,.products table{
+    background-color: rgb(0,157,225);
+    border-radius: 5px ;
+    margin-top: 150px;
+    padding: 10px 10px;
+}
+.customers table tr th,.feedback table tr th,.products table tr th{
+    background-color: white;
+    font-family: arial;
+    font-size: 18px;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.customers table tr td,.feedback table tr td,.products table tr td{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+}
+.customers .headingSerialNo,.feedback .headingSerialNo,.products .headingSerialNo{
+    background-color: rgb(0,98,145);
+    font-size:15px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    border-radius: 3px;
+    text-align: center;
+}
+.customers table tr td:hover,.feedback table tr td:hover,.products table tr td: hover{
+    color: white;
+    background-color: rgb(0,85,125);
+    text-align: center;
+    border-radius: 3px;
+}
+.Add_button a{
+    display: inline-block;
+    border: 2px solid white;
+    margin-left: 770px;
+    margin-top: 150px;
+    background-color: green;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: white;
+    font-family: arial;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.products table{
+    margin-top: 0px;
+}
+.edit_data form h2{
+    text-transform: uppercase;
+    font-family: arial;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    padding: 10px 0px;
+    text-shadow: 5px 5px 8px white;
+    font-weight: bolder;
+}
+.edit_data form{
+    display: inline-block;
+    background-color: rgb(0,157,225);
+    border-radius: 5px ;
+    margin-top: 150px;
+    padding: 0px 30px;
+}
+.edit_data form table tr td{
+    font-size: 18px;
+    color: white;
+    font-family: arial;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.edit_data form table tr td input[type="text"],
+.edit_data form table tr td input[type="email"],
+.edit_data form table tr td input[type="file"],
+.edit_data form table tr td textarea,
+.edit_data form table tr td select,
+.edit_data form table tr td input[type="number"]{
+    border: 2px solid rgb(117,0,18);
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: arial;
+    padding: 5px 5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.edit_data form table tr td input[type="file"]{
+    margin-top: 0px;
+}
+.edit_data form table tr td input[type="submit"]{
+    width: 100%;
+    border: 2px solid rgb(117,0,18);
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: arial;
+    padding: 5px 5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-color: white;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.edit_data form table tr td input[type="submit"]:hover{
+    background-color: rgb(117,0,18);
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 5px pink;
+}
+.feedback table tr td form .btn2{
+            
+            border-radius: 4px;
+            font-size: 18px;
+            background-color: red;
+            text-decoration: none;
+            color: white;
+            padding: 5px 5px;
+}
+.btn1{
+            
+            border-radius: 4px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            background-color: green;
+            padding: 5px 12px;
+        }
+        .btn2{
+            
+            border-radius: 4px;
+            font-size: 18px;
+            background-color: red;
+            text-decoration: none;
+            color: white;
+            padding: 5px 5px;
+        }

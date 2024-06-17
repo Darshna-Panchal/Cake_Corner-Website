@@ -1,0 +1,9 @@
+<?php 
+
+	require "header.php";
+	include "include/check_session.php";
+
+	$ord_id=$_REQUEST['ord_id'];
+	
+	echo $ord_id;
+?>
